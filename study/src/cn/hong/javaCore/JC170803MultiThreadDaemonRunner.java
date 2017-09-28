@@ -8,6 +8,7 @@ public class JC170803MultiThreadDaemonRunner implements Runnable {
 			SleepUtil.second(10);
 		}finally{
 			System.out.println("Daemon thread, finally block running.");
+			System.gc();
 		}
 
 	}
