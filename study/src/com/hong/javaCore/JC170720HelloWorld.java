@@ -1,4 +1,4 @@
-package cn.hong.javaCore;
+package ccom.hong.javaCore;
 
 public class JC170720HelloWorld {
 

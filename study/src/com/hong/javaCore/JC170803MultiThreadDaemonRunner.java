@@ -1,4 +1,4 @@
-package cn.hong.javaCore;
+package com.hong.javaCore;
 
 public class JC170803MultiThreadDaemonRunner implements Runnable {
 

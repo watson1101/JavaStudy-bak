@@ -1,4 +1,4 @@
-package cn.hong.javaCore;
+package com.hong.javaCore;
 
 /**
  * From java并发编程的艺术

@@ -1,4 +1,4 @@
-package cn.hong.javaCore;
+package com.hong.javaCore;
 
 /**
  * http://www.runoob.com/java/java-multithreading.html

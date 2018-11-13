@@ -1,4 +1,4 @@
-package cn.hong.javaCore;
+package com.hong.javaCore;
 
 import java.util.concurrent.TimeUnit;
 
