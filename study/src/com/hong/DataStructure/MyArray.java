@@ -43,13 +43,48 @@ public class MyArray {
 	 */
 	public void display() {
 		System.out.print("[");
-//		for (long ele : arr) {
-//			System.out.print(ele + " ");
-//		}
-		for(int i = 0;i<element;i++){
-			System.out.print(arr[i]+" ");
+		// for (long ele : arr) {
+		// System.out.print(ele + " ");
+		// }
+		for (int i = 0; i < element; i++) {
+			System.out.print(arr[i] + " ");
 		}
 		System.out.println("]");
+	}
+
+	/**
+	 * 根据值来查找，返回index
+	 *
+	 * @param value
+	 * @return
+	 */
+	public int search(long value) {
+		int i;
+		for (i = 0; i < element; i++) {
+			if (value == arr[i]) {
+				break;
+			}
+		}
+		if (i == element) {
+			return -1;
+		} else {
+			return i;
+		}
+	}
+
+	/**
+	 * 根据索引查找数据
+	 *
+	 * @param index
+	 * @return
+	 */
+	public long get(int index) {
+		if (index >= element || index < 0) {
+			System.out.println("error index..." + index);
+			throw new ArrayIndexOutOfBoundsException();
+		} else {
+			return arr[index];
+		}
 	}
 
 }
