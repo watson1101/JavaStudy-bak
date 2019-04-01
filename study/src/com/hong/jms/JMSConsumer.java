@@ -1,4 +1,4 @@
-package cn.hong.jms;
+package com.hong.jms;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;

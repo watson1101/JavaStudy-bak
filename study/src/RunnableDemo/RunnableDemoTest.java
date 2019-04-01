@@ -1,6 +1,6 @@
 package RunnableDemo;
 
-import cn.hong.javaCore.RunnableDemo;
+import com.hong.javaCore.RunnableDemo;
 
 public class RunnableDemoTest {
 	public static void main(String args[]) {

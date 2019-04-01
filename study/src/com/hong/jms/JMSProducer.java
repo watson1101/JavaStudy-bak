@@ -1,4 +1,4 @@
-package cn.hong.jms;
+package com.hong.jms;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -65,7 +65,7 @@ public class JMSProducer {
 
 	/**
 	 * 发送消息
-	 * 
+	 *
 	 * @param session
 	 * @param messageProducer
 	 *            消息生产者
