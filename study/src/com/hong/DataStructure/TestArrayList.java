@@ -3,7 +3,7 @@ package com.hong.DataStructure;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hong.lambda.model.Student;
+import com.hong.model.Student;
 
 public class TestArrayList {
 

@@ -1,4 +1,4 @@
-package com.hong.lambda.model;
+package com.hong.model;
 
 public class Student {
 	private String name;
