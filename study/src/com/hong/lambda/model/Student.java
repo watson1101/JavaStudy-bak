@@ -1,7 +1,5 @@
 package com.hong.lambda.model;
 
-import java.math.BigDecimal;
-
 public class Student {
 	private String name;
 	private int age;
@@ -40,6 +38,13 @@ public class Student {
 		this.sex = sex;
 	}
 
+	/**
+	 * 有参构造方法
+	 * @param name
+	 * @param age
+	 * @param money
+	 * @param sex
+	 */
 	public Student(String name, int age, Long money, String sex) {
 		super();
 		this.name = name;
@@ -48,6 +53,9 @@ public class Student {
 		this.sex = sex;
 	}
 
+	/**
+	 * 无参构造方法
+	 */
 	public Student() {
 		super();
 	}
