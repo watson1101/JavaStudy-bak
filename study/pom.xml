@@ -26,37 +26,38 @@
 			</plugin>
 		</plugins>
 	</build>
-	<!--
+	<!-- <dependencies> <dependency> </dependency> </dependencies> -->
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
 		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-console -->
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-console</artifactId>
+			<version>5.15.9</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-core -->
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-core</artifactId>
+			<version>5.7.0</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.apache.geronimo.specs</groupId> <artifactId>geronimo-jms_1.1_spec</artifactId> 
+			</dependency> -->
+		<!-- <dependency> <groupId>org.apache.geronimo.specs</groupId> <artifactId>geronimo-j2ee-management_1.1_spec</artifactId> 
+			</dependency> -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
-	-->
-	    <dependencies>  
-        <dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activemq-core</artifactId>  
-        </dependency>  
-        <dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activemq-console</artifactId>  
-        </dependency>  
-        <dependency>  
-            <groupId>org.apache.activemq</groupId>  
-            <artifactId>activeio-core</artifactId>  
-        </dependency>  
-<!--         <dependency>  
-            <groupId>org.apache.geronimo.specs</groupId>  
-            <artifactId>geronimo-jms_1.1_spec</artifactId>  
-        </dependency>   -->
-<!--         <dependency>  
-            <groupId>org.apache.geronimo.specs</groupId>  
-            <artifactId>geronimo-j2ee-management_1.1_spec</artifactId>  
-        </dependency>   -->
-        <dependency>  
-            <groupId>junit</groupId>  
-            <artifactId>junit</artifactId>  
-            <scope>test</scope>  
-        </dependency>  
-    </dependencies>  
 </project>
